@@ -23,13 +23,13 @@ title: Sysblob.com # the main title
 tagline: Everything Sysadmin # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A website dedicated to System Administration, Homelabbing, and Technology.
+  A website dedicated to System Administration, Homelabbing, and Technology
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://sysblob.github.io"
 
 github:
-  username: sysblob # change to your github username
+  username: Sysblob # change to your github username
 
 twitter:
   username: sysblob # change to your twitter username
@@ -37,7 +37,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: sysblob_admin
+  name: sysblob
   email: thesysblob@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
