@@ -8,3 +8,5 @@ tags: [bookstack,documentation,self-hosted]
 pin: false
 comments: true
 ---
+
+Coming soon.
