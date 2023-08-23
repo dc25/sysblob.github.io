@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A website dedicated to System Administration, Homelabbing, and Technology
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://sysblob.github.io"
+url: "https://sysblob.com"
 
 github:
   username: Sysblob # change to your github username
