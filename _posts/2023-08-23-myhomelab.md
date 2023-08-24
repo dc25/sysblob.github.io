@@ -19,6 +19,6 @@ The goal of Sysblob.com is three fold:
 
 ## My lab
 
-![my lab rack](labgrafana.png){: w="840" h="400" }
+![my lab rack](homelabbing.png){: w="840" h="400" }
 
 Normally this is the part where I would give a glimpse into some of the current infrastructure and services of my lab. However things are currently in disarray as I'm in the process of moving. Once everything is back to order I'll update.
