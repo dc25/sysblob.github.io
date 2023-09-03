@@ -1,5 +1,5 @@
 ---
-title: Bookstack
+title: Everything Bookstack
 image: bookstack.png
 img_path: /images/
 date: 2023-08-21
