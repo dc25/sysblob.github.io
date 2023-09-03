@@ -18,9 +18,9 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Sysblob.com # the main title
+title:  # the main title
 
-tagline: Homelabbing · Coding · Automation
+tagline: 
 
 description: >- # used by seo meta and the atom feed
   A website dedicated to System Administration, Homelabbing, and Technology
