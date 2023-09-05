@@ -1651,7 +1651,7 @@ footer p{
     margin-bottom:4rem
 }
 .access .post-content{
-    font-size:.9rem
+    font-size:.9rem;
 }
 #panel-wrapper .panel-heading{
     color:var(--label-color);
@@ -1667,10 +1667,11 @@ footer p{
     margin:0 .35rem .5rem 0
 }
 #panel-wrapper .post-tag:hover{
-    transition:all .3s ease-in
+    transition:all .3s ease-in;
 }
 #access-lastmod a{
-    color:inherit
+    color:inherit;
+    
 }
 .footnotes>ol{
     padding-left:2rem;
