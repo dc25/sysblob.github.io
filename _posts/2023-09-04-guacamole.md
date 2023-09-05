@@ -25,7 +25,7 @@ Guacamole has a clean interface for quickly getting at your saved connections. I
 - Telnet
 - VNC
 
-For SSH Guacamole supports username and password based authentication or via SSH keys. If you plan on using SSH though, see the note below.
+For SSH Guacamole supports username and password based authentication or SSH keys. If you plan on using SSH though, see the note below.
 
 > For SSH key algorithms Guacamole is very picky. You're required to use PEM format. To generate a key compatible with Guacamole try "ssh-keygen -t rsa -b 4096 -m PEM"
 {: .prompt-info }
@@ -43,7 +43,7 @@ Now that we've taken a look at the straight forward settings of Guacamole. Let's
 
 ## Setup
 
-This installation is based off a fresh Ubuntu 22.04 server.
+This installation is based off a fresh **Ubuntu 22.04** server.
 
 ### Installing Guacd
 
@@ -223,7 +223,7 @@ I've discovered a couple quirks when it comes to setting up Guacamole connection
 - For Windows RDP connections set the security mode to NLA Authentication
 - For both linux and windows connections make sure to check the box to ignore certificate warnings
 - For SSH the entry only requires hostname, port 22, your username, and the SSH key in the format seen below.
-- I've find Guacamole doesn't seem to do well with DNS so I use IP addresses. This could be my own issues.
+- I've found Guacamole doesn't seem to do well with DNS so I use IP addresses. This could be my own issues.
 
 ![guacamole connections](guacamole-connections.png){: w="840" h="400" }{: .shadow }
 
