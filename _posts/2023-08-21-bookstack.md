@@ -49,12 +49,12 @@ You can install Bookstack via an automated script which makes it easy, or you ca
 
 ### Automatic install (Requires fresh Ubuntu 22.04)
 
-To utilize the script we download it, make sure it has right permissions, edit anything we need, and run it. Series of commands:
+To utilize the script we download it, make sure it has the right permissions, edit any lines we need, and run it. Series of commands:
 
 ```bash
 wget https://raw.githubusercontent.com/BookStackApp/devops/main/scripts/installation-ubuntu-22.04.sh
 chmod a+x installation-ubuntu-22.04.sh
-nano installation-ubuntu-22.04.sh # edit the script
+nano installation-ubuntu-22.04.sh # edit the script if you're importing an old bookstack
 sudo ./bookstack-install.sh
 ```
 
@@ -63,7 +63,7 @@ sudo ./bookstack-install.sh
 
 ### Docker Installation
 
-If you need help setting up Docker see my guide here: [Sysblob - A deep dive on Docker]({% post_url 2023-09-02-docker %})
+If you need help setting up Docker see my guide here: [A deep dive on Docker]({% post_url 2023-09-02-docker %})
 
 Make a docker-compose.yml file and paste in this content:
 
