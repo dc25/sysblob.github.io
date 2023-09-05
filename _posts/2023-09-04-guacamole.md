@@ -225,5 +225,5 @@ I've discovered a couple quirks when it comes to setting up Guacamole connection
 - For SSH the entry only requires hostname, port 22, your username, and the SSH key in the format seen below.
 - I've found Guacamole doesn't seem to do well with DNS so I use IP addresses. This could be my own issues.
 
-![guacamole connections](guacamole-connections.png){: w="840" h="400" }{: .shadow }
+![guacamole ssh](guacamole-ssh.png){: w="840" h="400" }{: .shadow }
 
