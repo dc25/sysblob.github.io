@@ -1,0 +1,2 @@
+the purple = #ae81ff 174, 129, 255
+the green = #62ea00 98, 234, 0
