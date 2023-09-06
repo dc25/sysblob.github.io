@@ -1903,7 +1903,8 @@ a.reversefootnote{
     text-align:left
 }
 .btn.btn-outline-primary:not(.disabled):hover{
-    border-color:#007bff !important
+    border-color:#ae81ff !important;
+    background-color: #ae81ff
 }
 .disabled{
     color:#cec4c4;
