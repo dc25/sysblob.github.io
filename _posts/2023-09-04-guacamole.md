@@ -134,7 +134,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'SetRootP
 exit
 sudo mysql_secure_installation
 ```
-Before populating the database, install the MySQL Connector/J library and Guacamole JDBC authenticator plugin.
+Before populating the database, we need to install a few things. Mainly we need to install the MySQL Connector/J library and Guacamole JDBC authenticator plugin.  
+
 Download the [MySQL Connector/J (Java Connector)](https://dev.mysql.com/downloads/connector/j/). For this guide, download the platform independent archived file.
 ```bash
 wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz
@@ -164,7 +165,7 @@ mysql -u root -p
 ```
 The prompt should change again to mysql>.
 
-While in the mysql prompt, change the root password, create a database, and create a new user for that database. When running the below commands, replace any instance of password with a secure password string for the mysql root user and the new user for your database, respectively.
+While in the mysql prompt we run the commands below. The goal is to change the root password, create a database, and create a new user for that database. When running the commands, replace any instance of password with a secure password string for the mysql root user and the new user for your database, respectively.
 
 ```bash
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
@@ -173,7 +174,7 @@ CREATE USER 'guacamole_user'@'localhost' IDENTIFIED BY 'password';
 GRANT SELECT,INSERT,UPDATE,DELETE ON guacamole_db.* TO 'guacamole_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
-Exit the MySQL prompt by typing quit.
+Exit the MySQL prompt by typing `quit`.
 
 Locate the scheme files in the extracted directory for the JDBC plugin.
 

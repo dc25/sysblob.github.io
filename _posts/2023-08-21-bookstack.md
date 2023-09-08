@@ -9,7 +9,7 @@ pin: false
 comments: true
 ---
 
-Bookstack is a self-hosted wiki website that makes editing and storing your documentation in an organized and secure fashion fast, efficient, and easy.
+Bookstack is a self-hosted wiki that makes editing and storing your documentation in an organized and secure fashion fast, efficient, and easy.
 
 Link: [https://www.bookstackapp.com/](https://www.bookstackapp.com/)
 

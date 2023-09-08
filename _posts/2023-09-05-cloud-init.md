@@ -9,7 +9,7 @@ pin: false
 comments: true
 ---
 
-One of the immediate burning questions I had when I began spinning up virtual machines was how can I automate more of this manual installation of the operating system? I'd heard about cloud-init and seen it working in the background on some of my AWS EC2 instances or on my Ubuntu servers but couldn't quite put all the pieces together. Eventually, when I got into enterprise automation, spinning up new VMs fast and efficiently became a necessity. This forced me to sit down and learn quite a bit so I could built my perfect image. Let's take a look at cloud-init.
+One of the immediate burning questions I had when I began spinning up virtual machines was how can I automate more of the manual installation of the operating system? Clicking the same mundane options for every new VM is boring. I'd heard about cloud-init and seen it working in the background on some of my AWS EC2 instances or on my Ubuntu servers but couldn't quite put all the pieces together. What is cloud-init? What are cloud-ready images? Eventually, when I got into enterprise automation, spinning up new VMs fast and efficiently became a necessity. This forced me to sit down and learn quite a bit so I could build my perfect image. Let's take a look at cloud-init.
 
 ## What is cloud-init?
 
@@ -17,11 +17,11 @@ One of the immediate burning questions I had when I began spinning up virtual ma
 
 Cloud-init is a distribution neutral way of deploying a new operating system pre-configured so it can be deployed non-interactively such as through a hypervisor template. Most distributions of linux provide "cloud ready" images which are intended to be used for this purpose. Think of cloud-init as performing the basic things you need to do before you hand off to your configuration management tool. You can do as much or as little as you need to. This can include setting up login/SSH, usernames, time zones, packages, uploading files, and much more.
 
-I'm a big fan of Rocky linux since its goal is to remain a 1:1 clone of RedHat Enterprise Linux. This makes it a great image of choice if you're spinning up servers you're learning for future employment. Let's take a look at editing the Rocky linux default cloud image.
+I'm a big fan of Rocky linux since its goal is to remain a 1:1 clone of RedHat Enterprise Linux. This makes it a great image of choice if you're spinning up servers you're learning on for future employment. Let's take a look at editing the Rocky linux default cloud image.
 
 ## Editing an image with virt-edit
 
-Let's download a Rocky cloud image for Rocky 8.8. 
+First we will download a Rocky cloud image for Rocky 8.8. 
 
 ```bash
 https://download.rockylinux.org/pub/rocky/8.8/images/x86_64/Rocky-8-GenericCloud-Base.latest.x86_64.qcow2
