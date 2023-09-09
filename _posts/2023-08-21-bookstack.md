@@ -31,11 +31,11 @@ You'll also notice the customization. Bookstack has a settings area which allows
 
 ![bookstack settings](bookstack-settings.png){: w="840" h="400" }
 
-Bookstack also has built in user management which is nice. You can add users, authenticate them via email, delegate what rights they have and over what pages, and much more. Other features Bookstack supports are Webhooks to send out data on actions such as posting, or audit logging for login and wiki changes.
+Bookstack also has built in user management which is nice. You can add users, authenticate them via email, delegate what rights they have and over what pages, and much more. Other features Bookstack supports are Webhooks to send out data on post actions, and a built in audit log if you want to have a bit of user accountability.
 
 ![bookstack users](bookstack-users.png){: w="840" h="400" }
 
-Where Bookstack really shines though, is the ease at which you can create content. Just go to your content page, click new page, and everything you need to create and publish a new post is right there. From font customization and coloring, code blocks with syntax highlighting, tables, graphs, images, videos, the whole tool kit is there. 
+Where Bookstack really shines though, is the ease at which you can create content. Just go where you want, click new page, and everything you need to create and publish a new post is right there. From font customization and coloring, code blocks with syntax highlighting, tables, graphs, images, videos, the whole tool kit is there. 
 
 ![bookstack content](bookstack-content.png){: w="840" h="400" }
 
@@ -105,9 +105,9 @@ services:
       - ./bookstack_db_data:/config
     restart: unless-stopped
 ```
-Container images are configured using parameters passed at runtime (such as those above). These parameters are separated by a colon and indicate <external>:<internal> respectively. For example, -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080 outside the container. This container uses 6875 externally and can be reached at -- http://hostname:6875
+Container images are configured using parameters passed at runtime (such as those above). Binding is when we tell docker we want ports or directories to be represented inside the container directly. For example, -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080 outside the container. This container uses 6875 externally and can be reached at -- http://hostname:6875
 
-PUID and GUID should be set to your user that will be owning the volume directories for Docker. You can check your info by running command "id username".
+PUID and GUID should be set to your user that will be owning the volume directories for Docker. You can check your ids in linux by running command "id username".
 
 If you need help specifying timezone see this link: [Timezone List](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)
 
@@ -207,7 +207,7 @@ cp -r public/uploads/* /var/www/bookstack/public/uploads
 cp -r storage/uploads/* /var/www/bookstack/storage/uploads
 ```
 > It's important the APP_Key value remains the same between old and new bookstack or it can break things.
-{: .prompt-important }
+{: .prompt-info }
 
 Open the old .env file and copy the APP_KEY value and paste it into new Bookstacks .env
 ```bash
