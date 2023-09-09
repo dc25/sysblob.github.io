@@ -295,7 +295,7 @@ Now that we have a directory structure setup we can fill in the files. Tasks can
 
 ### Templates
 
-Templates are typically used to edit and create configuration files dynamically. Let's say you wanted to use Ansible to generate an HTML page which had a dynamic title and post description? It's best to see a practical example for this by looking at both the file that is templated, and the playbook which inserts variables into the template.
+Templates are typically used to edit and create configuration files dynamically. Let's say you wanted to use Ansible to generate an HTML page which had a dynamic title and post description. It's best to see a practical example for this by looking at both the file that is templated, and the playbook which inserts variables into the template.
 
 The template file (template.html)
 
