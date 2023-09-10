@@ -1,7 +1,6 @@
 ---
 title: Title here
 image: image_name.png
-img_path: /images/
 date: 2023-09-09
 categories: [homelabbing]
 tags: [ansible,semaphore,automation]
