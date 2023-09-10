@@ -34,7 +34,7 @@ Normally this is the part where I would give a glimpse into some of the current 
 - 12U adjustable StarTech Rack
 - Synology NAS 920+ with x5 8TB drives and +8GB additional ram (16)
 - Raspberry Pi 4B
-- TP-Link EAP670 | Omada WiFi 6 AX5400 Wireless 2.5G Ceiling Mount
+- TP-Link EAP670 Omada WiFi 6 AX5400 Wireless 2.5G Ceiling Mount
 - 2022 Mac M1 Pro (Daily driver)
 
 
