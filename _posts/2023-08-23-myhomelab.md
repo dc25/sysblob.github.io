@@ -25,6 +25,56 @@ Normally this is the part where I would give a glimpse into some of the current 
 
 ## My hardware
 
-## My Services
+- x2 Dell PowerEdge r730 8 LFF (2)E5-2660v3 2.60Ghz 64GB H730 Perc (4x)1G (2)750W (One of these runs an nvidia geforce 1070)
+- Beelink SEI8 Mini Intel 8th Gen 8109U(up to 3.6Ghz), 16GB DDR4 RAM 500GB NVMe SSD, Gigabit Ethernet
+- 24 port Mikrotik switch CRS326
+- Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC - Intel Quad Core, AES-NI, 8GB RAM, 120GB mSATA SSD
+- x2 HP ProDesk 600 G3 SFF 3.6 GHz Intel Core i7-7700 Quad-Core, 64 GB DDR4 with vPro with 1 TB SSDs
+- Waveshare 11.9inch Capacitive Touch Screen LCD (This is the screen in my rack if you're curious)
+- 12U adjustable StarTech Rack
+- Synology NAS 920+ with x5 8TB drives and +8GB additional ram (16)
+- Raspberry Pi 4B
+- TP-Link EAP670 | Omada WiFi 6 AX5400 Wireless 2.5G Ceiling Mount
+- 2022 Mac M1 Pro (Daily driver)
+
+
+## Infrastrcuture
+
+- Proxmox
+- VMWare ESXi
+- Opnsense
+- Semaphore (Ansible)
+- Foreman/Katello/Puppet
+- FreeIPA
+- 2022 Active Directory
+- Cloudflare DNS and tunneling
+- Internal DNS via Unbound
+- Docker/Portainer
+- Apache Guacamole
+- Wireguard VPN
+- Tailscale Overlay network
+
+## Logging/Monitoring
+
+- Greylogs
+- Grafana
+- Uptime Kuma
+
+## Hosted applications
+
+- Bookstack
+- Portainer
+- Plex
+- Radarr, Sonarr, Lidarr, Prowlarr, Overseerr
+- Tautulli
+- Transmission
+- Sabnzbd
+- Snippetbox
+- Metube
+- Organizr
+- Nextcloud
+- Homerr
 
 ## Diagrams
+
+Coming soon.
