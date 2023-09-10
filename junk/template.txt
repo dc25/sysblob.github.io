@@ -8,7 +8,7 @@ pin: false
 comments: true
 ---
 
-Type a couple sentences here in a paragraph format to highlight the upcoming document. A thesis statement basically.
+Type a couple sentences here in a paragraph format to highlight the upcoming document. A thesis statement basically..
 
 ## Introduction
 
