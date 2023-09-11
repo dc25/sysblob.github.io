@@ -1,18 +1,11 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* append your custom styles below */
-
 #search-results a,h5,h4,h3,h2,h1{
     color: #ae81ff;
     font-weight:400;
     font-family:Lato,"Microsoft Yahei",sans-serif
-}
-
-#panel-wrapper .panel-heading{
+  }
+  
+  #panel-wrapper .panel-heading{
     color:#62ea00;
     font-size:inherit;
     font-weight:600
-}
+  }
