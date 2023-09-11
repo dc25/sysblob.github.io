@@ -32,15 +32,13 @@ An image.
 
 A youtube video.
 
-{% include youtube.html id='cjXI-yxqGTI' %}
+{% include embed/youtube.html id='Lj5qHBjSfMo' %}
 
 Highlight blocks.
 
-> This is a How-to guide on setting up Docker on Ubuntu Linux. 
+> this is an info prompt. others are tip, warning, and danger.
 {: .prompt-info }
 
-> Warning!
-{: .prompt-warning }
 
 linking another post
 
