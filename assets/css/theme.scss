@@ -20,3 +20,37 @@
 h5,h4,h3,h2,h1{
   color: #ae81ff;
 }
+
+#sidebar ul li.nav-item.active .nav-link {
+  color: #62ea00;
+  background-color: var(--sidebar-hover-bg);
+}
+
+#sidebar ul li.nav-link.nav-link {
+  color: #62ea00;
+}
+
+#sidebar ul li.nav-item a.nav-link {
+  color: #ae81ff;
+}
+
+#sidebar .sidebar-bottom .mode-toggle, #sidebar .sidebar-bottom a {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 50%;
+  color: #ae81ff;
+  background-color: var(--sidebar-btn-bg);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#topbar i {
+  color: #62ea00;
+}
+
+search {
+  border: 1px solid #ae81ff;
+}
