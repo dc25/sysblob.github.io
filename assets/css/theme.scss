@@ -49,8 +49,25 @@ h5,h4,h3,h2,h1{
 
 #topbar i {
   color: #62ea00;
+  
 }
 
 search {
-  border: 1px solid #ae81ff;
+  color: #ae81ff;
+}
+
+.btn-link {
+  --bs-btn-font-weight: 400;
+  --bs-btn-color: #ae81ff;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: var(--bs-link-hover-color);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-color: var(--bs-link-hover-color);
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-border-color: transparent;
+  --bs-btn-box-shadow: 0 0 0 #000;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  text-decoration: underline;
 }
