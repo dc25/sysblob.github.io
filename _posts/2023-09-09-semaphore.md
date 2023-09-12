@@ -11,7 +11,7 @@ comments: true
 
 Semaphore is an open-source browser based GUI for Ansible. Semaphore has a slick interface and executes playbooks by reading them directly from a Github repository you give it credentials to. I wouldn't necessarily say Semaphore is a complete package for Ansible but for the purposes of a homelabber it will work great. In fact Ansible really only has two main popular GUI associated with it, Ansible Tower or AWX, and Semaphore. Ansible Tower uses kubernetes and can get very complicated. If you want a simple open-source option, weirdly, I've really only seen Semaphore.
 
-Before we jump into Semaphore it's important that you have an understanding of Ansible as a whole. If you need to brush up on any topics I've also written a deep dive on it found here: [A deep dive on Docker]({% post_url 2023-09-02-docker %})
+Before we jump into Semaphore it's important that you have an understanding of Ansible as a whole. If you need to brush up on any topics I've also written a deep dive on it found here: [Ansible the automation king]({% post_url 2023-09-08-ansible %})
 
 ## Semaphore Overview
 
