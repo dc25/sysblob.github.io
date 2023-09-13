@@ -1,0 +1,195 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://sysblob.com/sysblob.github.io/</id>
+  <title></title>
+  <subtitle>A website dedicated to System Administration, Homelabbing, and Technology</subtitle>
+  <updated>2023-09-13T14:58:21-04:00</updated>
+  <author>
+    <name>Sysblob</name>
+    <uri>https://sysblob.com/sysblob.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://sysblob.com/sysblob.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://sysblob.com/sysblob.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Sysblob </rights>
+  <icon>/sysblob.github.io/assets/img/favicons/favicon.ico</icon>
+  <logo>/sysblob.github.io/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Semaphore - An open-source Ansible GUI</title>
+    <link href="https://sysblob.com/sysblob.github.io/posts/semaphore/" rel="alternate" type="text/html" title="Semaphore - An open-source Ansible GUI" />
+    <published>2023-09-09T00:00:00-04:00</published>
+  
+    <updated>2023-09-12T13:16:02-04:00</updated>
+  
+    <id>https://sysblob.com/sysblob.github.io/posts/semaphore/</id>
+    <content src="https://sysblob.com/sysblob.github.io/posts/semaphore/" />
+    <author>
+      <name>Sysblob</name>
+    </author>
+
+  
+    
+    <category term="homelabbing" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Semaphore is an open-source browser based GUI for Ansible. Semaphore has a slick interface and executes playbooks by reading them directly from a Github repository you give it credentials to. I wouldn’t necessarily say Semaphore is a complete package for Ansible but for the purposes of a homelabber it will work great. In fact Ansible really only has two main popular GUI associated with it, Ansi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Ansible the automation king</title>
+    <link href="https://sysblob.com/sysblob.github.io/posts/ansible/" rel="alternate" type="text/html" title="Ansible the automation king" />
+    <published>2023-09-08T00:00:00-04:00</published>
+  
+    <updated>2023-09-08T00:00:00-04:00</updated>
+  
+    <id>https://sysblob.com/sysblob.github.io/posts/ansible/</id>
+    <content src="https://sysblob.com/sysblob.github.io/posts/ansible/" />
+    <author>
+      <name>Sysblob</name>
+    </author>
+
+  
+    
+    <category term="enterprise" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ansible, is an agentless python-based automation tool. It works with playbooks and inventory lists in order to execute state changes based on system information it pulls before execution called facts. Ansible is a configuration management tool and can both keep your machines in a certain state, or make changes on the fly. Ansible along with chef and puppet make up a very large percentage of the...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>An Overview of Linux</title>
+    <link href="https://sysblob.com/sysblob.github.io/posts/linux/" rel="alternate" type="text/html" title="An Overview of Linux" />
+    <published>2023-09-05T00:00:00-04:00</published>
+  
+    <updated>2023-09-11T01:07:47-04:00</updated>
+  
+    <id>https://sysblob.com/sysblob.github.io/posts/linux/</id>
+    <content src="https://sysblob.com/sysblob.github.io/posts/linux/" />
+    <author>
+      <name>Sysblob</name>
+    </author>
+
+  
+    
+    <category term="enterprise" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Everyone has seen a movie where a hacker is typing away on a black screen and code whizzes by. This is our ingrained image a computer super genius. The black screen is something called a terminal which allows you to enter commands that are interpreted directly into programs. Linux is famous for being a terminal heavy operating system, and one hackers and homelabbers alike love to run. Let’s tak...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Customizing your image with Cloud-init</title>
+    <link href="https://sysblob.com/sysblob.github.io/posts/cloud-init/" rel="alternate" type="text/html" title="Customizing your image with Cloud-init" />
+    <published>2023-09-05T00:00:00-04:00</published>
+  
+    <updated>2023-09-08T19:50:16-04:00</updated>
+  
+    <id>https://sysblob.com/sysblob.github.io/posts/cloud-init/</id>
+    <content src="https://sysblob.com/sysblob.github.io/posts/cloud-init/" />
+    <author>
+      <name>Sysblob</name>
+    </author>
+
+  
+    
+    <category term="homelabbing" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      One of the immediate burning questions I had when I began spinning up virtual machines was how can I automate more of the manual installation of the operating system? Clicking the same mundane options for every new VM is boring. I’d heard about cloud-init and seen it working in the background on some of my AWS EC2 instances or on my Ubuntu servers but couldn’t quite put all the pieces together....
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apache Guacamole for a remote lab</title>
+    <link href="https://sysblob.com/sysblob.github.io/posts/guacamole/" rel="alternate" type="text/html" title="Apache Guacamole for a remote lab" />
+    <published>2023-09-04T00:00:00-04:00</published>
+  
+    <updated>2023-09-08T19:50:16-04:00</updated>
+  
+    <id>https://sysblob.com/sysblob.github.io/posts/guacamole/</id>
+    <content src="https://sysblob.com/sysblob.github.io/posts/guacamole/" />
+    <author>
+      <name>Sysblob</name>
+    </author>
+
+  
+    
+    <category term="homelabbing" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Apache Guacamole is a browser based experience for remote SSH and RDP access. In a nut shell you run a self-hosted server which you connect to via a web GUI. From within this site you can add connections to your various networked devices - and they work right there in your browser. Guacamole supports many connection types and encryption protocols so you’re sure to find what you need.
+
+An Introd...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
